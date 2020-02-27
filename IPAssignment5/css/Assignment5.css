@@ -1,0 +1,71 @@
+.auto-style1 {
+    height: 444px;
+}
+
+.submitBtn {
+    margin-right: 10px;
+    width: 100px;
+    background: #1abc9c;
+    border-bottom: #16a085 3px solid;
+    border-left: #16a085 1px solid;
+    border-right: #16a085 1px solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+    .submitBtn:hover {
+        opacity: 0.8;
+    }
+
+    .submitBtn:active {
+        width: 100px;
+        background: #18B495;
+        border-bottom: #16a085 1px solid;
+        border-left: #16a085 1px solid;
+        border-right: #16a085 1px solid;
+        border-top: #16a085 1px solid;
+        border-radius: 6px;
+        text-align: center;
+        color: white;
+        padding: 10px;
+        margin-top: 3px;
+        float: left;
+    }
+
+.NavBars a{
+    color: white;
+}
+.navbar{
+    float: left;
+    width: 80%;
+}
+.navbar2{
+    float: right;
+    width:20%;
+}
+.navbar li{
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 25px;
+    position: relative;
+}
+.navbar2 li{
+    display: inline-block;
+    padding-top: 30px;
+    position: relative;
+}
+
+#contentNewUser {
+    padding-top: 120px;
+    font-size: x-large;
+}
+.detailView {
+    position: relative;
+    float: right;
+    left: 0px;
+    top: 0px;
+}

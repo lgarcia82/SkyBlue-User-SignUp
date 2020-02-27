@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="IPAssignment5.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/Assignment5.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="font-family: 'Ubuntu', sans-serif;background-image: url('signUpWall.jpg'); background-repeat:repeat; background-position: top">
+    <form id="form1" runat="server" class="auto-style1" style="margin: auto">
+        <div class="NavBars">
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="Index.aspx">Login</a>
+                    </li>
+                    <li>
+                        <a href="NewUser.aspx">New User</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="navbar2">
+                <ul>
+                    <li class="adminLink">
+                        <a href="AdminLogin.aspx">Admin Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
